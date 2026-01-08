@@ -1,0 +1,9 @@
+  {
+    "attributes": {
+        "vendor_uid": {
+        "caption": "Vendor UID",
+        "description": "The unique identifier assigned to a vulnerability by the data source tool",
+        "type": "string_t"
+        }
+    }
+  }
