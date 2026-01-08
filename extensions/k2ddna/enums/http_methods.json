@@ -1,0 +1,128 @@
+{
+    "enum": {
+        "PROPFIND": {
+            "caption": "PropFind",
+            "description": "WebDAV: Retrieves properties defined on the resource identified by the request URI."
+        },
+        "PROPPATCH": {
+            "caption": "PropPatch",
+            "description": "WebDAV: Processes instructions specified in the request body to set and/or remove properties defined on the resource."
+        },
+        "MKCOL": {
+            "caption": "MkCol",
+            "description": "WebDAV: Creates a new collection (directory) at the location specified by the Request-URI."
+        },
+        "COPY": {
+            "caption": "Copy",
+            "description": "WebDAV: Creates a duplicate of the source resource at the destination."
+        },
+        "MOVE": {
+            "caption": "Move",
+            "description": "WebDAV: Moves a resource from the request URI to the destination URI."
+        },
+        "LOCK": {
+            "caption": "Lock",
+            "description": "WebDAV: Used to take out a lock of any access type on the resource."
+        },
+        "UNLOCK": {
+            "caption": "Unlock",
+            "description": "WebDAV: Removes the lock identified by the lock token from the request URI."
+        },
+        "ORDERPATCH": {
+            "caption": "OrderPatch",
+            "description": "WebDAV: Used to change the ordering of the members of a collection."
+        },
+        "ACL": {
+            "caption": "ACL",
+            "description": "WebDAV: Used to modify the Access Control List (permissions) of a resource."
+        },
+        "REPORT": {
+            "caption": "Report",
+            "description": "WebDAV/Versioning: Used to obtain information about a resource, such as version history."
+        },
+        "VERSION-CONTROL": {
+            "caption": "Version Control",
+            "description": "WebDAV/Versioning: Used to put a resource under version control."
+        },
+        "CHECKIN": {
+            "caption": "Checkin",
+            "description": "WebDAV/Versioning: Used to check in a resource, creating a new version."
+        },
+        "CHECKOUT": {
+            "caption": "Checkout",
+            "description": "WebDAV/Versioning: Used to check out a resource to create a modify-able working copy."
+        },
+        "UNCHECKOUT": {
+            "caption": "Uncheckout",
+            "description": "WebDAV/Versioning: Used to cancel a checkout and restore the resource to its previous state."
+        },
+        "SEARCH": {
+            "caption": "Search",
+            "description": "WebDAV: Initiates a server-side search."
+        },
+        "MKWORKSPACE": {
+            "caption": "MkWorkspace",
+            "description": "WebDAV/Versioning: Creates a new workspace for version-controlled resources."
+        },
+        "UPDATE": {
+            "caption": "Update",
+            "description": "WebDAV/Versioning: Updates a resource to a specific version state."
+        },
+        "LABEL": {
+            "caption": "Label",
+            "description": "WebDAV/Versioning: Used to label or tag a specific version of a resource."
+        },
+        "MERGE": {
+            "caption": "Merge",
+            "description": "WebDAV/Versioning: Used to merge changes from one branch or resource into another."
+        },
+        "BASELINE-CONTROL": {
+            "caption": "Baseline Control",
+            "description": "WebDAV/Versioning: Used to place a collection under baseline control."
+        },
+        "MKACTIVITY": {
+            "caption": "MkActivity",
+            "description": "WebDAV/Versioning: Creates an activity to track a set of changes."
+        },
+        "PRI": {
+            "caption": "Pri",
+            "description": "HTTP/2: The PRI method is used strictly in the HTTP/2 connection preface."
+        },
+        "BIND": {
+            "caption": "Bind",
+            "description": "WebDAV: Creates a new binding (alias) to an existing resource."
+        },
+        "UNBIND": {
+            "caption": "Unbind",
+            "description": "WebDAV: Removes a binding to a resource."
+        },
+        "REBIND": {
+            "caption": "Rebind",
+            "description": "WebDAV: Atomically moves a binding to a new location."
+        },
+        "MKREDIRECTREF": {
+            "caption": "MkRedirectRef",
+            "description": "WebDAV: Creates a reference that redirects to another resource."
+        },
+        "UPDATEREDIRECTREF": {
+            "caption": "UpdateRedirectRef",
+            "description": "WebDAV: Updates an existing redirect reference."
+        },
+        "MKCALENDAR": {
+            "caption": "MkCalendar",
+            "description": "CalDAV: Creates a new calendar collection."
+        },
+        "LINK": {
+            "caption": "Link",
+            "description": "Extension: Used to establish relationships between resources (Deprecated)."
+        },
+        "UNLINK": {
+            "caption": "Unlink",
+            "description": "Extension: Used to remove relationships between resources (Deprecated)."
+        },
+        "TRACK": {
+            "caption": "Track",
+            "description": "Legacy/Debug: Performs a message loop-back test. Often used by vulnerability scanners to test for XST."
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "http_request",
+  "attributes": {
+    "http_method": {
+      "requirement": "recommended",
+      "$include": "extensions/k2ddna/enums/http_methods.json"
+    }
+  }
+}
